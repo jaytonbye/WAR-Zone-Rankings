@@ -1,0 +1,20 @@
+#Rankings {
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-collapse: collapse;
+  border-top: solid #ff7824 4px;
+  border-radius: 5px 5px 0 0;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+}
+
+.Rankings thead {
+  color: black;
+  background-color: #fd6e16;
+  font-size: 1.2em;
+}
+
+#Rankings tr:last-of-type {
+  border-bottom: 3px solid #ff7824;
+}
