@@ -1,4 +1,20 @@
-let fakeCompetitorList = [
+let competitors = [
+  {
+    Rank: 1,
+    Name: "Jason Layton (The Champ!)",
+    Weight: 185.2,
+    Age: 37.9,
+    WeightAdjustedRating: 99999.9,
+    Team: "Dynamic",
+  },
+  {
+    Rank: 2,
+    Name: "Hammer Johnson",
+    Weight: 52.3,
+    Age: 9.1,
+    WeightAdjustedRating: 99999.8,
+    Team: "The Killers",
+  },
   {
     Rank: 3,
     Name: "Dylan Ayala",
@@ -717,7 +733,7 @@ let fakeCompetitorList = [
     Weight: 221.2,
     Age: 15.2,
     WeightAdjustedRating: 10645.5,
-    Team: "5 Points Wrestling",
+    Team: 5 Points Wrestling",
   },
   {
     Rank: 93,
@@ -1829,7 +1845,7 @@ let fakeCompetitorList = [
     Weight: 152.2,
     Age: 17.4,
     WeightAdjustedRating: 10009.1,
-    Team: "5 Points Wrestling",
+    Team: 5 Points Wrestling",
   },
   {
     Rank: 232,
@@ -1909,7 +1925,7 @@ let fakeCompetitorList = [
     Weight: 133.6,
     Age: 16.9,
     WeightAdjustedRating: 9981.9,
-    Team: "5points",
+    Team: 5points",
   },
   {
     Rank: 242,
@@ -2261,7 +2277,7 @@ let fakeCompetitorList = [
     Weight: 170.0,
     Age: 18.8,
     WeightAdjustedRating: 9845.3,
-    Team: "1K",
+    Team: 1K",
   },
   {
     Rank: 286,
@@ -7589,7 +7605,7 @@ let fakeCompetitorList = [
     Weight: 119.9,
     Age: 13.3,
     WeightAdjustedRating: 8570.9,
-    Team: "D1",
+    Team: "D1,
   },
   {
     Rank: 952,
@@ -8069,7 +8085,7 @@ let fakeCompetitorList = [
     Weight: 138.0,
     Age: 15.1,
     WeightAdjustedRating: 8481.9,
-    Team: "5 Points Wrestling",
+    Team: 5 Points Wrestling",
   },
   {
     Rank: 1012,
@@ -9661,7 +9677,7 @@ let fakeCompetitorList = [
     Weight: 113.0,
     Age: 14.8,
     WeightAdjustedRating: 8162.7,
-    Team: "5 Points Wrestling",
+    Team: 5 Points Wrestling",
   },
   {
     Rank: 1211,
@@ -10365,7 +10381,7 @@ let fakeCompetitorList = [
     Weight: 103.0,
     Age: 16.5,
     WeightAdjustedRating: 7990.2,
-    Team: "5 Points Wrestling",
+    Team: 5 Points Wrestling",
   },
   {
     Rank: 1299,
@@ -11349,7 +11365,7 @@ let fakeCompetitorList = [
     Weight: 114.0,
     Age: 12.8,
     WeightAdjustedRating: 7807.6,
-    Team: "Raw 241",
+    Team: "Raw 241,
   },
   {
     Rank: 1422,
@@ -11845,7 +11861,7 @@ let fakeCompetitorList = [
     Weight: 118.6,
     Age: 15.0,
     WeightAdjustedRating: 7692.9,
-    Team: "5PointsWrestleing",
+    Team: 5PointsWrestleing",
   },
   {
     Rank: 1484,
@@ -12397,7 +12413,7 @@ let fakeCompetitorList = [
     Weight: 98.0,
     Age: 14.6,
     WeightAdjustedRating: 7548.1,
-    Team: "5 Points Wrestling",
+    Team: 5 Points Wrestling",
   },
   {
     Rank: 1553,
@@ -15197,7 +15213,7 @@ let fakeCompetitorList = [
     Weight: 103.6,
     Age: 14.7,
     WeightAdjustedRating: 6910.2,
-    Team: "5 Points Wrestling",
+    Team: 5 Points Wrestling",
   },
   {
     Rank: 1903,
@@ -16941,7 +16957,7 @@ let fakeCompetitorList = [
     Weight: 84.0,
     Age: 14.0,
     WeightAdjustedRating: 6483.0,
-    Team: "5points",
+    Team: 5points",
   },
   {
     Rank: 2121,
@@ -17041,7 +17057,7 @@ let fakeCompetitorList = [
   },
   {
     Rank: 2133,
-    Name: "Xavier Seabury",
+    Name: "Xavier ",
     Weight: 71.4,
     Age: 10.9,
     WeightAdjustedRating: 6463.6,
@@ -17897,7 +17913,7 @@ let fakeCompetitorList = [
   },
   {
     Rank: 2240,
-    Name: "Ethan Hauser",
+    Name: "Ethan ",
     Weight: 68.2,
     Age: 12.2,
     WeightAdjustedRating: 6261.6,
@@ -24101,7 +24117,7 @@ let fakeCompetitorList = [
     Weight: 76.6,
     Age: 8.5,
     WeightAdjustedRating: 5061.6,
-    Team: "5 Star Wrestling",
+    Team: 5 Star Wrestling",
   },
   {
     Rank: 3016,
@@ -34247,7 +34263,190 @@ let fakeCompetitorList = [
     WeightAdjustedRating: 1027.3,
     Team: "Dundee",
   },
-
+  {
+    Rank: 4284,
+    Name: "Andrew Arsenault",
+    Weight: "None",
+    Age: 16.0,
+    WeightAdjustedRating: 1000.0,
+    Team: "Iron Faith",
+  },
+  {
+    Rank: 4285,
+    Name: "Caleb Lannigan",
+    Weight: "None",
+    Age: 11.1,
+    WeightAdjustedRating: 1000.0,
+    Team: "N/A",
+  },
+  {
+    Rank: 4286,
+    Name: "Brayden Lannigan",
+    Weight: "None",
+    Age: 7.7,
+    WeightAdjustedRating: 1000.0,
+    Team: "N/A",
+  },
+  {
+    Rank: 4287,
+    Name: "Myles Brown",
+    Weight: "None",
+    Age: 17.0,
+    WeightAdjustedRating: 1000.0,
+    Team: "Krazy Monkey Wrestling",
+  },
+  {
+    Rank: 4288,
+    Name: "Jack Sauer",
+    Weight: "None",
+    Age: 13.0,
+    WeightAdjustedRating: 1000.0,
+    Team: "New England Gold",
+  },
+  {
+    Rank: 4289,
+    Name: "Derek Winseman",
+    Weight: "None",
+    Age: 12.8,
+    WeightAdjustedRating: 1000.0,
+    Team: "N/A",
+  },
+  {
+    Rank: 4290,
+    Name: "Brady Haskell",
+    Weight: "None",
+    Age: 10.9,
+    WeightAdjustedRating: 1000.0,
+    Team: "Hamma Shack",
+  },
+  {
+    Rank: 4291,
+    Name: "Emmett McCarthy",
+    Weight: "None",
+    Age: 8.0,
+    WeightAdjustedRating: 1000.0,
+    Team: "N/A",
+  },
+  {
+    Rank: 4292,
+    Name: "Weston McCarthy",
+    Weight: "None",
+    Age: 6.1,
+    WeightAdjustedRating: 1000.0,
+    Team: "Riptide",
+  },
+  {
+    Rank: 4293,
+    Name: "Declan Bligh",
+    Weight: "None",
+    Age: 14.4,
+    WeightAdjustedRating: 1000.0,
+    Team: "Parkway",
+  },
+  {
+    Rank: 4294,
+    Name: "Jayden Champion",
+    Weight: "None",
+    Age: 10.3,
+    WeightAdjustedRating: 1000.0,
+    Team: "ATC Raw",
+  },
+  {
+    Rank: 4295,
+    Name: "Maddie-lee Byron",
+    Weight: "None",
+    Age: 7.2,
+    WeightAdjustedRating: 1000.0,
+    Team: "ATC Raw",
+  },
+  {
+    Rank: 4296,
+    Name: "Alexavier Waters",
+    Weight: "None",
+    Age: 15.1,
+    WeightAdjustedRating: 1000.0,
+    Team: "Keene Gladiators",
+  },
+  {
+    Rank: 4297,
+    Name: "Zoe Waters",
+    Weight: "None",
+    Age: 16.3,
+    WeightAdjustedRating: 1000.0,
+    Team: "Keene Gladiators",
+  },
+  {
+    Rank: 4298,
+    Name: "Zak Waters",
+    Weight: "None",
+    Age: 11.3,
+    WeightAdjustedRating: 1000.0,
+    Team: "Keene Gladiators",
+  },
+  {
+    Rank: 4299,
+    Name: "Auden Duda",
+    Weight: "None",
+    Age: 13.6,
+    WeightAdjustedRating: 1000.0,
+    Team: "Metrowest",
+  },
+  {
+    Rank: 4300,
+    Name: "Kyle Saye",
+    Weight: "None",
+    Age: 15.5,
+    WeightAdjustedRating: 1000.0,
+    Team: "Brigade",
+  },
+  {
+    Rank: 4301,
+    Name: "Anthony Donlon",
+    Weight: "None",
+    Age: 16.7,
+    WeightAdjustedRating: 1000.0,
+    Team: "N/A",
+  },
+  {
+    Rank: 4302,
+    Name: "Logan Costello",
+    Weight: "None",
+    Age: 12.3,
+    WeightAdjustedRating: 1000.0,
+    Team: "War Dogs",
+  },
+  {
+    Rank: 4303,
+    Name: "Ben Lodi",
+    Weight: "None",
+    Age: 18.0,
+    WeightAdjustedRating: 1000.0,
+    Team: "New England Gold",
+  },
+  {
+    Rank: 4304,
+    Name: "Pierce Melton",
+    Weight: "None",
+    Age: 16.0,
+    WeightAdjustedRating: 1000.0,
+    Team: "N/A",
+  },
+  {
+    Rank: 4305,
+    Name: "Elijah Wallace",
+    Weight: "None",
+    Age: 18.1,
+    WeightAdjustedRating: 1000.0,
+    Team: "MetroWest United",
+  },
+  {
+    Rank: 4306,
+    Name: "Cameron Davis",
+    Weight: "None",
+    Age: 16.0,
+    WeightAdjustedRating: 1000.0,
+    Team: "MarcAurele",
+  },
   {
     Rank: 4307,
     Name: "Alex Webb",
@@ -34321,94 +34520,3 @@ let fakeCompetitorList = [
     Team: "Wildcats",
   },
 ];
-
-for (x = 0; x < fakeCompetitorList.length; x++) {
-  $("#wrestlers").append(`
-  <option value="${fakeCompetitorList[x].Name}"></option>
-  `);
-}
-
-$("#theButton").on("click", () => {
-  $("#Rankings").remove();
-  $("#divForRankings").append(
-    `
-    <table id="Rankings" class="table table-bordered">
-      <thead>
-        <th>Rank</th>
-        <th>Name</th>
-        <th>Weight</th>
-        <th>Age</th>
-        <th>WeightAdjustedRating</th>
-        <th>Team</th>
-      </thead>
-    `
-  );
-  let notOverWeightAndAge = [];
-  let percentageOfWeightAbove = 1 + $("#weightPercent").val() / 100;
-  let percentageOfAgeAbove = 1 + $("#agePercent").val() / 100;
-
-  let getAllOfTheWrestlersDetails = (name) => {
-    for (x = 0; x < fakeCompetitorList.length; x++) {
-      if (name === fakeCompetitorList[x].Name) {
-        return fakeCompetitorList[x];
-      }
-    }
-  };
-
-  let removeOverWeightAndOverAgeCompetitors = (competitor) => {
-    for (x = 0; x < fakeCompetitorList.length; x++) {
-      if (competitor) {
-        if (
-          competitor.Weight * percentageOfWeightAbove >=
-            fakeCompetitorList[x].Weight &&
-          competitor.Age * percentageOfAgeAbove >= fakeCompetitorList[x].Age
-        ) {
-          notOverWeightAndAge.push(fakeCompetitorList[x]);
-        }
-      }
-    }
-  };
-
-  let removeThenSort = (competitor) => {
-    removeOverWeightAndOverAgeCompetitors(competitor);
-
-    //will be mutated (didn't know how not to, I don't think it will matter.)
-    notOverWeightAndAge.sort((a, b) => {
-      return a.WeightAdjustedRating < b.WeightAdjustedRating ? 1 : -1;
-    });
-  };
-
-  let competitorWeAreRanking = $("#wrestlerName").val();
-  removeThenSort(getAllOfTheWrestlersDetails(competitorWeAreRanking));
-  for (x = 0; x < notOverWeightAndAge.length; x++) {
-    //some object destructuring for the win!
-
-    let {
-      Rank,
-      Name,
-      Weight,
-      Age,
-      WeightAdjustedRating,
-      Team,
-    } = notOverWeightAndAge[x];
-
-    let hyphenatedName = Name.replace(" ", "-");
-
-    $("#Rankings").append(
-      `
-        <tr id=${hyphenatedName}>
-        <td>${x + 1}</td>
-        <td>${Name}</td>
-        <td>${Weight}</td>
-        <td>${Age}</td>
-        <td>${WeightAdjustedRating}</td>
-        <td>${Team}</td>
-        </tr>`
-    );
-  }
-  let otherHyphentatedName = competitorWeAreRanking.replace(" ", "-");
-  $(`#${otherHyphentatedName}`).css("background-color", "yellow");
-  $("#note").append(
-    "<h1>If nothing loaded, it is because you did not spell the wrestlers name exactly as it is written on his WAR Zone profile. They are CaSe sEnSiTiVe. Refresh the page to try again.</h1>"
-  );
-});
